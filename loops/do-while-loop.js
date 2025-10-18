@@ -1,7 +1,7 @@
-let = i = 40 
-do {
-    console.log("hello")
-    i = i +5
 
-}
-while (i < 20);
+
+let = i = 0; 
+do {
+    console.log("hello");
+     i++;
+}while (i < 10);

@@ -8,7 +8,9 @@ for (let count=0; count<5 ; count++) {
 
 }
 console.log("-----------\n")
+
 //crushing ypur computer
+
 // for (; ;){
 //     console.log("hello wold")
 // }
@@ -18,6 +20,7 @@ for (let i=0; i<5;i++) {
 console.log(i)
 console.log("hafsa");
 console.log("ahmed");
+console.log(i , "hafsa" , "ahmed");
 }
 
 for (let index=0; index<5; index++) {
@@ -39,3 +42,14 @@ if(index == 2) {
 } //labo kaliya arayga kaso dabac 
     console.log(namesofstudent[index]);
 }
+for (let counter = 0 ; counter < 10 ; counter++) {
+    //console.log(counter, "caasha",  "jama");
+if( counter == 5 ) {
+   // break;
+   continue; //skip number 5
+}
+    console.log(counter, "caasha",  "jama");
+
+}
+
+for (let index)

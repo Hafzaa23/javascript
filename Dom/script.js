@@ -2,7 +2,6 @@
 // let firstH1 = document.createElement("h1");
 // firstH1.textContent = "Hello world!";
 // document.body.appendChild(firstH1);
-
 // si aad wax badan udaabacdo loop isticmali
 // for (let i = 0; i <=500; i++) {
 //     let firstH1 = document.createElement("h1");

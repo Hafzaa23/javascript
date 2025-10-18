@@ -1,7 +1,7 @@
 //addition
 var kabo = 30;
-var boogs =20;
-var totalPrice = kabo + boogs ;
+var books =20;
+var totalPrice = kabo + books ;
 console.log(totalPrice)
 //subtraction
 var bags = 10;
@@ -28,7 +28,7 @@ var remainder = totalLaptopPrice % numberOfLaptops;
 console.log(remainder);
 
 //increment 
-i = 2 ;
+i = 3 ;
 i = ++i ;
 console.log(i)
 
@@ -36,3 +36,18 @@ console.log(i)
 b = 4 ;
 b =  -- b;
 console.log(b)
+
+var a = 6 ;
+var b = 3 ;
+
+var result = a ** b ; //6*3 6*3 =216
+
+console .log (result);
+
+let age = 5;
+age++;
+console.log(age);
+
+var numberOfMonth = 12;
+numberOfMonth--;
+console.log(numberOfMonth);

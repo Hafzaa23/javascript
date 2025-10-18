@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <script src="script.js"></script>
-    <p class="wanna-first"> I am must be the first line of this html</p>
-    <div class="wanna-first"> I am must be the first line of this html</div>
+  </head>
+  <body>
+    <h1>Hello by hand</h1>
+    <!-- by self -->
+    <p class="wanna-first">I am must be the first line of this html</p>
+    <div class="wanna-first">I am must be the first line of this html</div>
 
-    <h1> </h1>
+    <script>
+      // by js
+      let anotherH1 = document.createElement('h1');
+      anotherH1.textContent = 'Hello by JS';
+      document.body.appendChild(anotherH1);
+    </script>
+  </body>
+</html>
 
-    
-</body>
+  </body>
 </html>
