@@ -7,18 +7,46 @@
   </head>
   <body>
     <h1>Hello by hand</h1>
-    <!-- by self -->
-    <p class="wanna-first">I am must be the first line of this html</p>
-    <div class="wanna-first">I am must be the first line of this html</div>
+    <h2 id="myH2">hello by hand i chanded</h2>
+    <h2 id="myOtherH2">the second h2</h2>
 
-    <script>
-      // by js
+    <h3 id="myH3">hello by hand i chanded</h3>
+    <h3 id="myOtherH3">the second h2</h3>
+
+    
+    
+
+    <script> //by js
+      for (let i = 0; i < 100 ; i++){
       let anotherH1 = document.createElement('h1');
-      anotherH1.textContent = 'Hello by JS';
-      document.body.appendChild(anotherH1);
+      anotherH1.textContent =  i + ' Hello by JS';
+    document.body.appendChild(anotherH1);
+    }
+
+// change by id using
+    let myH2 = document.getElementById("myH2");
+    myH2.textContent = myH2.textContent +  "js change too";
+    myH2.style.color = "red";
+    myH2.style.fontSize = "50px";
+    myH2.style.textDecoration = "underline";
+
+// second id 
+   let myOtherH2 = document.getElementById("myOtherH2")
+   myOtherH2.textContent = myOtherH2.textContent + "  with javascript";
+   myOtherH2.style.color = "green";
+   myOtherH2.style.fontSize = "25px";
+   myOtherH2.style.textDecoration = "overline";
+  
+//
+   let allH3S = document.getElementsByTagName("h3");
+   allH3S[0].style.color ="blue";
+  allH3S[1].style.color ="grey";
+  document.body.style.backgroundColor = "white";
+
     </script>
   </body>
 </html>
 
   </body>
 </html>
+    
