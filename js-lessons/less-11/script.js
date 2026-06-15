@@ -44,5 +44,5 @@ console.log(age);
 const { firstName, lastName, age } = person;
 console.log(firstName);
 console.log(lastName);
-console.log(age);
+console.log(age);g
 
