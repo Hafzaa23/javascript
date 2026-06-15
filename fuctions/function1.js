@@ -52,6 +52,7 @@ function multiplyu(num5 , num6) {
 console.log(num5 * num6);
 }
 
+
 function divideu(num5 , num6) {
 console.log(num5 / num6);
 }
@@ -85,7 +86,7 @@ function divideu(num3 , num4) {
 function addu(num3 , num4){
 return num3 + num4;
 }
-
+fuction;ggv n
 function subu(num3 , num4, num8) {
 return (num3 - num4) *num8;
 }

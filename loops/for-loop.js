@@ -52,4 +52,3 @@ if( counter == 5 ) {
 
 }
 
-for (let index)
