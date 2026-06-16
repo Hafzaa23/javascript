@@ -19,18 +19,17 @@ console.log(third);
 
 //object destructing
 let person = {
-    firstName: "hafsa",
-    lastName: "ahmed",
-    age: 23,
-    address: {
-        street: "1234-444",
-        city: "burtinle",
-        state: "puntland",
-    },
-    hobbies: ["code", "music", "reading"],
-
+  firstName: "hafsa",
+  lastName: "ahmed",
+  age: 23,
+  address: {
+    street: "1234-444",
+    city: "burtinle",
+    state: "puntland",
+  },
+  hobbies: ["code", "music", "reading"],
 };
-//accesing object 
+//accesing object
 const firstName = person.firstName;
 const lasttName = person.lastName;
 const age = person.age;
@@ -44,5 +43,5 @@ console.log(age);
 const { firstName, lastName, age } = person;
 console.log(firstName);
 console.log(lastName);
-console.log(age);g
-
+console.log(age);
+g;
